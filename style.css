@@ -89,6 +89,7 @@ video {
 
   /* Box-model */
   padding: 0;
+  box-sizing: border-box;
 
   /* Positioning */
   margin: 0;
@@ -187,16 +188,10 @@ nav {
     padding: 50px 0;
 }
 
-.center-content {
-    box-sizing: border-box;
-    padding: 50px 0;
-
-}
-
 section {
     margin-right: 19px;
     width: 55%;
-    height: 100%;
+    height: 300px;
     background-color: #ebebeb;
     float: left;
 }
@@ -205,6 +200,7 @@ article {
     margin-top: 80px;
     margin-left: 10px;
     margin-right: 10px;
+    height: 200px;
     color: #ebebeb;
     background: #777;
     padding: 20px;
@@ -214,21 +210,20 @@ article {
 
 article p, 
 .article-headings {
-    background: #ebebeb;
     color: #777;
     background: #ebebeb;
 }
 
 .article-headings {
     margin-top: 20px;
-    height: 100%;
+    height: 5px;
     padding: 50px 0;
     font-weight: bold;
 }
 
 p {
     margin-top: 10px;
-    height: 100%;
+    height: 5px;
     padding: 50px 0;
     background-color: aqua;
 }
@@ -236,7 +231,7 @@ p {
 
 aside {
     width: 43%;
-    height: 100%;
+    height: 300px;
     background-color: #ebebeb;
     float: left;
 }
