@@ -191,21 +191,28 @@ nav {
 section {
     margin-right: 19px;
     width: 55%;
-    height: 300px;
+    /* height: 300px; */
+    height: 100%;
+    padding: 20px 10px 10px 10px;
     background-color: #ebebeb;
     float: left;
 }
 
+section h2 {
+    margin-bottom: 20px !important;
+}
+
 article {
-    margin-top: 80px;
+    /* margin-top: 80px; */
     margin-left: 10px;
     margin-right: 10px;
-    height: 200px;
+    /* height: 200px; */
+    height: 100%;
     color: #ebebeb;
     background: #777;
-    padding: 20px;
-    height: 100%;
-    padding: 50px 0;
+    padding: 0 20px 20px 20px;
+    /* height: 100%; */
+    /* padding: 50px 0; */
 }
 
 article p, 
@@ -214,17 +221,26 @@ article p,
     background: #ebebeb;
 }
 
-.article-headings {
+article p {
     margin-top: 20px;
+    padding: 20px;
+}
+
+article h2 {
+    padding: 20px;
+}
+
+.article-headings {
+    /* margin-top: 20px;
     height: 5px;
-    padding: 50px 0;
+    padding: 50px 0; */
     font-weight: bold;
 }
 
 p {
-    margin-top: 10px;
+    /* margin-top: 10px;
     height: 5px;
-    padding: 50px 0;
+    padding: 50px 0; */
     background-color: aqua;
 }
 
@@ -234,6 +250,11 @@ aside {
     height: 300px;
     background-color: #ebebeb;
     float: left;
+}
+
+aside h2 {
+    position: relative;
+    top: 45%;
 }
 
 footer {
